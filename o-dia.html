@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>O Dia — Junho Violeta</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { height: 100%; }
+  body {
+    display: flex; flex-direction: column; font-family: Georgia, serif; color: #1a1525; background: #fff; }
+
+  nav {
+    padding: 16px 15%;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav a.logo { text-decoration: none; color: #1a1525; font-size: 16px; }
+  nav ul { list-style: none; display: flex; gap: 24px; }
+  nav ul a {
+    text-decoration: none; color: #555;
+    font-family: Arial, sans-serif; font-size: 13px;
+  }
+  nav ul a:hover, nav ul a.ativo { color: #6B35B8; }
+
+  .header {
+    background: #3D1880;
+    padding: 56px 15% 48px;
+  }
+  .header p.num {
+    font-family: Arial, sans-serif; font-size: 11px;
+    text-transform: uppercase; letter-spacing: 0.1em;
+    color: #B48DE8; margin-bottom: 12px;
+  }
+  .header h1 { font-size: 36px; color: #fff; line-height: 1.2; max-width: 480px; }
+  .header h1 em { color: #B48DE8; font-style: italic; }
+
+  .content { padding: 56px 15%; }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 48px;
+  }
+
+  .texto p {
+    font-family: Arial, sans-serif; font-size: 15px;
+    color: #555; line-height: 1.75; margin-bottom: 16px;
+  }
+  .citacao {
+    border-left: 3px solid #6B35B8;
+    padding-left: 16px;
+    margin-top: 24px;
+  }
+  .citacao p { font-size: 17px; font-style: italic; color: #1a1525; line-height: 1.5; }
+  .citacao small {
+    display: block; font-family: Arial, sans-serif;
+    font-size: 12px; color: #888; margin-top: 6px; font-style: normal;
+  }
+
+  .timeline {
+    background: #3D1880;
+    padding: 28px;
+  }
+  .timeline h2 { font-size: 18px; color: #fff; margin-bottom: 20px; }
+  .tl-item { display: flex; gap: 12px; margin-bottom: 16px; }
+  .tl-dot {
+    width: 8px; height: 8px; border-radius: 50%;
+    background: #B48DE8; margin-top: 5px; flex-shrink: 0;
+  }
+  .tl-ano { font-family: Arial, sans-serif; font-size: 11px; color: #B48DE8; margin-bottom: 2px; }
+  .tl-txt { font-family: Arial, sans-serif; font-size: 13px; color: rgba(255,255,255,0.8); line-height: 1.6; }
+
+  .nav-pags {
+    padding: 20px 15%;
+    border-top: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav-pags a {
+    text-decoration: none; color: #6B35B8;
+    font-family: Arial, sans-serif; font-size: 14px;
+  }
+  .nav-pags a:hover { text-decoration: underline; }
+
+  .spacer { flex: 1; }
+  footer {
+    padding: 24px 15%; background: #1a1525;
+    display: flex; justify-content: space-between; align-items: center;
+  }
+  footer span { color: rgba(255,255,255,0.5); font-size: 15px; }
+  footer p { font-family: Arial, sans-serif; font-size: 12px; color: rgba(255,255,255,0.3); }
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="logo" href="index.html">🟣 Junho Violeta</a>
+  <ul>
+    <li><a href="o-dia.html" class="ativo">O Dia</a></li>
+    <li><a href="violencias.html">Tipos de Violência</a></li>
+    <li><a href="ajudar.html">Como Ajudar</a></li>
+  </ul>
+</nav>
+
+<div class="header">
+  <p class="num">Página 01 · O Dia</p>
+  <h1>Uma data que <em>não pode ser esquecida</em></h1>
+</div>
+
+<div class="content">
+  <div class="grid">
+
+    <div class="texto">
+      <p>O 15 de junho foi escolhido pela ONU, em 2006, como o <strong>Dia Mundial de Conscientização sobre o Abuso de Idosos</strong>. No Brasil, a Lei n.º 11.433/2007 instituiu esta data como Dia Nacional de Combate à Violência contra a Pessoa Idosa.</p>
+      <p>O <strong>Estatuto do Idoso</strong> (Lei n.º 10.741/2003) é o principal marco de proteção, garantindo direitos integrais a pessoas com 60 anos ou mais e criminalizando diversas formas de abuso e negligência.</p>
+      <p>A campanha <strong>Junho Violeta</strong> mobiliza a sociedade durante todo o mês, reforçando as redes de proteção — das delegacias especializadas ao Ministério Público.</p>
+      <div class="citacao">
+        <p>"Toda pessoa idosa tem direito a uma vida plena, com saúde, liberdade, dignidade e respeito."</p>
+        <small>— Estatuto do Idoso, Lei n.º 10.741/2003</small>
+      </div>
+    </div>
+
+    <div class="timeline">
+      <h2>Marcos históricos</h2>
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div>
+          <div class="tl-ano">2003</div>
+          <div class="tl-txt">Estatuto do Idoso promulgado — Lei n.º 10.741, referência legal de proteção integral.</div>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div>
+          <div class="tl-ano">2006</div>
+          <div class="tl-txt">ONU reconhece o 15 de junho como Dia Mundial de Conscientização sobre Abuso de Idosos.</div>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div>
+          <div class="tl-ano">2007</div>
+          <div class="tl-txt">Lei n.º 11.433 institui o Dia Nacional no Brasil.</div>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div>
+          <div class="tl-ano">2020</div>
+          <div class="tl-txt">Pandemia evidencia vulnerabilidade e isolamento dos idosos.</div>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div>
+          <div class="tl-ano">Hoje</div>
+          <div class="tl-txt">Brasil tem mais de 32 milhões de idosos. Proteção segue como prioridade urgente.</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="spacer"></div>
+<div class="nav-pags">
+  <a href="index.html">← Início</a>
+  <a href="violencias.html">Tipos de Violência →</a>
+</div>
+
+<footer>
+  <span>Junho Violeta</span>
+  <p>Lei n.º 10.741/2003 · Lei n.º 11.433/2007</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tipos de Violência — Junho Violeta</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { height: 100%; }
+  body {
+    display: flex; flex-direction: column; font-family: Georgia, serif; color: #1a1525; background: #fff; }
+
+  nav {
+    padding: 16px 15%;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav a.logo { text-decoration: none; color: #1a1525; font-size: 16px; }
+  nav ul { list-style: none; display: flex; gap: 24px; }
+  nav ul a {
+    text-decoration: none; color: #555;
+    font-family: Arial, sans-serif; font-size: 13px;
+  }
+  nav ul a:hover, nav ul a.ativo { color: #6B35B8; }
+
+  .header {
+    background: #3D1880;
+    padding: 56px 15% 48px;
+  }
+  .header p.num {
+    font-family: Arial, sans-serif; font-size: 11px;
+    text-transform: uppercase; letter-spacing: 0.1em;
+    color: #B48DE8; margin-bottom: 12px;
+  }
+  .header h1 { font-size: 36px; color: #fff; line-height: 1.2; max-width: 480px; }
+  .header h1 em { color: #B48DE8; font-style: italic; }
+  .header p.sub {
+    font-family: Arial, sans-serif; font-size: 14px;
+    color: rgba(255,255,255,0.6); margin-top: 12px; max-width: 440px; line-height: 1.6;
+  }
+
+  .content { padding: 56px 15%; }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1px;
+    background: #ddd;
+    border: 1px solid #ddd;
+  }
+  .vcard {
+    background: #fff;
+    padding: 24px;
+  }
+  .vcard:hover { background: #F0EAFD; }
+  .vcard .ico { font-size: 20px; margin-bottom: 12px; }
+  .vcard h2 { font-size: 17px; margin-bottom: 8px; }
+  .vcard p {
+    font-family: Arial, sans-serif; font-size: 13px;
+    color: #555; line-height: 1.65; margin-bottom: 12px;
+  }
+  .vcard .tag {
+    font-family: Arial, sans-serif; font-size: 11px;
+    text-transform: uppercase; letter-spacing: 0.06em;
+    color: #6B35B8; background: #F0EAFD;
+    padding: 2px 8px; display: inline-block;
+  }
+
+  .nota {
+    margin-top: 28px;
+    border-left: 3px solid #6B35B8;
+    padding-left: 16px;
+  }
+  .nota p {
+    font-family: Arial, sans-serif; font-size: 14px;
+    color: #555; line-height: 1.7;
+  }
+
+  .nav-pags {
+    padding: 20px 15%;
+    border-top: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav-pags a {
+    text-decoration: none; color: #6B35B8;
+    font-family: Arial, sans-serif; font-size: 14px;
+  }
+  .nav-pags a:hover { text-decoration: underline; }
+
+  .spacer { flex: 1; }
+  footer {
+    padding: 24px 15%; background: #1a1525;
+    display: flex; justify-content: space-between; align-items: center;
+  }
+  footer span { color: rgba(255,255,255,0.5); font-size: 15px; }
+  footer p { font-family: Arial, sans-serif; font-size: 12px; color: rgba(255,255,255,0.3); }
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="logo" href="index.html">🟣 Junho Violeta</a>
+  <ul>
+    <li><a href="o-dia.html">O Dia</a></li>
+    <li><a href="violencias.html" class="ativo">Tipos de Violência</a></li>
+    <li><a href="ajudar.html">Como Ajudar</a></li>
+  </ul>
+</nav>
+
+<div class="header">
+  <p class="num">Página 02 · Tipos de Violência</p>
+  <h1>Reconhecer é o <em>primeiro passo</em></h1>
+  <p class="sub">A violência assume muitas formas — nem sempre visíveis. Conhecer cada tipo ajuda a identificar, prevenir e denunciar.</p>
+</div>
+
+<div class="content">
+  <div class="grid">
+    <div class="vcard">
+      <div class="ico">🤜</div>
+      <h2>Física</h2>
+      <p>Uso de força que causa dor, ferimentos ou incapacidade — empurrões, tapas, contenção inadequada.</p>
+      <span class="tag">Lesão corporal</span>
+    </div>
+    <div class="vcard">
+      <div class="ico">🧠</div>
+      <h2>Psicológica</h2>
+      <p>Ameaças, humilhações, isolamento e chantagem emocional — frequentemente a forma mais silenciosa.</p>
+      <span class="tag">Abuso emocional</span>
+    </div>
+    <div class="vcard">
+      <div class="ico">💰</div>
+      <h2>Financeira</h2>
+      <p>Uso indevido do dinheiro, bens ou propriedades do idoso, incluindo coerção para transferências e golpes.</p>
+      <span class="tag">Estelionato</span>
+    </div>
+    <div class="vcard">
+      <div class="ico">🙈</div>
+      <h2>Negligência</h2>
+      <p>Omissão no cuidado físico ou de saúde — privar de alimentação, higiene ou medicamentos.</p>
+      <span class="tag">Omissão</span>
+    </div>
+    <div class="vcard">
+      <div class="ico">🚪</div>
+      <h2>Abandono</h2>
+      <p>Deserção deliberada do responsável, deixando o idoso sem amparo ou condições mínimas de sobrevivência.</p>
+      <span class="tag">Abandono</span>
+    </div>
+    <div class="vcard">
+      <div class="ico">⚖️</div>
+      <h2>Institucional</h2>
+      <p>Práticas abusivas em hospitais, casas de repouso ou órgãos públicos por parte de profissionais.</p>
+      <span class="tag">Abuso institucional</span>
+    </div>
+  </div>
+
+  <div class="nota">
+    <p><strong>80% dos casos ocorrem no ambiente familiar</strong>, praticados por filhos, cônjuges ou cuidadores próximos. Denunciar protege o idoso e previne a reincidência.</p>
+  </div>
+</div>
+
+<div class="spacer"></div>
+<div class="nav-pags">
+  <a href="o-dia.html">← O Dia</a>
+  <a href="ajudar.html">Como Ajudar →</a>
+</div>
+
+<footer>
+  <span>Junho Violeta</span>
+  <p>Lei n.º 10.741/2003 · Lei n.º 11.433/2007</p>
+</footer>
+
+</body>
+</html>

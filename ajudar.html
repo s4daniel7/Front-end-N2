@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Como Ajudar — Junho Violeta</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { height: 100%; }
+  body {
+    display: flex; flex-direction: column; font-family: Georgia, serif; color: #1a1525; background: #fff; }
+
+  nav {
+    padding: 16px 15%;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav a.logo { text-decoration: none; color: #1a1525; font-size: 16px; }
+  nav ul { list-style: none; display: flex; gap: 24px; }
+  nav ul a {
+    text-decoration: none; color: #555;
+    font-family: Arial, sans-serif; font-size: 13px;
+  }
+  nav ul a:hover, nav ul a.ativo { color: #6B35B8; }
+
+  .header {
+    background: #3D1880;
+    padding: 56px 15% 48px;
+  }
+  .header p.num {
+    font-family: Arial, sans-serif; font-size: 11px;
+    text-transform: uppercase; letter-spacing: 0.1em;
+    color: #B48DE8; margin-bottom: 12px;
+  }
+  .header h1 { font-size: 36px; color: #fff; line-height: 1.2; max-width: 480px; }
+  .header h1 em { color: #B48DE8; font-style: italic; }
+  .header p.sub {
+    font-family: Arial, sans-serif; font-size: 14px;
+    color: rgba(255,255,255,0.6); margin-top: 12px; max-width: 440px; line-height: 1.6;
+  }
+
+  .content {
+    padding: 56px 15%;
+    display: grid;
+    grid-template-columns: 1.1fr 1fr;
+    gap: 56px;
+    align-items: start;
+  }
+
+  .passos { display: flex; flex-direction: column; gap: 28px; }
+  .passo { display: flex; gap: 16px; }
+  .passo .n { font-size: 30px; color: #6B35B8; font-weight: bold; line-height: 1; min-width: 28px; }
+  .passo h2 { font-size: 17px; margin-bottom: 6px; }
+  .passo p { font-family: Arial, sans-serif; font-size: 14px; color: #555; line-height: 1.7; }
+
+  .canais h3 {
+    font-family: Arial, sans-serif; font-size: 11px;
+    text-transform: uppercase; letter-spacing: 0.08em;
+    color: #888; margin-bottom: 16px;
+  }
+  .canal {
+    padding: 16px 20px;
+    display: flex; align-items: center; gap: 16px;
+    margin-bottom: 10px;
+  }
+  .canal.principal { background: #6B35B8; }
+  .canal.secundario { background: #F0EAFD; border: 1px solid #ddd; }
+  .canal .n { font-size: 26px; font-weight: bold; line-height: 1; flex-shrink: 0; }
+  .canal.principal .n { color: #fff; }
+  .canal.secundario .n { color: #6B35B8; }
+  .canal .info { font-family: Arial, sans-serif; font-size: 13px; line-height: 1.5; }
+  .canal.principal .info { color: rgba(255,255,255,0.85); }
+  .canal.secundario .info { color: #555; }
+  .canal .nome { display: block; font-size: 14px; font-weight: bold; margin-bottom: 2px; }
+  .canal.principal .nome { color: #fff; }
+  .canal.secundario .nome { color: #6B35B8; }
+
+  .obs {
+    margin-top: 12px;
+    font-family: Arial, sans-serif; font-size: 13px;
+    color: #888; line-height: 1.6;
+    border-left: 3px solid #ddd; padding-left: 12px;
+  }
+
+  .nav-pags {
+    padding: 20px 15%;
+    border-top: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav-pags a {
+    text-decoration: none; color: #6B35B8;
+    font-family: Arial, sans-serif; font-size: 14px;
+  }
+  .nav-pags a:hover { text-decoration: underline; }
+
+  .spacer { flex: 1; }
+  footer {
+    padding: 24px 15%; background: #1a1525;
+    display: flex; justify-content: space-between; align-items: center;
+  }
+  footer span { color: rgba(255,255,255,0.5); font-size: 15px; }
+  footer p { font-family: Arial, sans-serif; font-size: 12px; color: rgba(255,255,255,0.3); }
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="logo" href="index.html">🟣 Junho Violeta</a>
+  <ul>
+    <li><a href="o-dia.html">O Dia</a></li>
+    <li><a href="violencias.html">Tipos de Violência</a></li>
+    <li><a href="ajudar.html" class="ativo">Como Ajudar</a></li>
+  </ul>
+</nav>
+
+<div class="header">
+  <p class="num">Página 03 · Como Ajudar</p>
+  <h1>Sua atitude <em>faz diferença</em></h1>
+  <p class="sub">Qualquer pessoa pode denunciar. O sigilo é garantido por lei. A inação também é uma forma de cumplicidade.</p>
+</div>
+
+<div class="content">
+
+  <div class="passos">
+    <div class="passo">
+      <span class="n">01</span>
+      <div>
+        <h2>Observe e reconheça</h2>
+        <p>Fique atento a marcas inexplicáveis, comportamento ansioso, isolamento súbito, mudanças financeiras repentinas ou deterioração rápida da saúde.</p>
+      </div>
+    </div>
+    <div class="passo">
+      <span class="n">02</span>
+      <div>
+        <h2>Aproxime-se com cuidado</h2>
+        <p>Converse com o idoso em particular. Escute sem julgamento e deixe claro que ele não está sozinho.</p>
+      </div>
+    </div>
+    <div class="passo">
+      <span class="n">03</span>
+      <div>
+        <h2>Denuncie</h2>
+        <p>Use os canais ao lado. A denúncia pode ser anônima. Suspeitas fundadas já são suficientes — você não precisa de provas.</p>
+      </div>
+    </div>
+    <div class="passo">
+      <span class="n">04</span>
+      <div>
+        <h2>Apoie o acompanhamento</h2>
+        <p>Após denunciar, ajude o idoso a acessar apoio médico, psicológico e jurídico. O CREAS e a Defensoria Pública são pontos de entrada na rede de proteção.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="canais">
+    <h3>Canais de denúncia</h3>
+
+    <div class="canal principal">
+      <div class="n">180</div>
+      <div class="info">
+        <span class="nome">Ligue 180</span>
+        Central de Atendimento à Mulher — também recebe denúncias contra idosos. Gratuito, 24h.
+      </div>
+    </div>
+
+    <div class="canal secundario">
+      <div class="n">100</div>
+      <div class="info">
+        <span class="nome">Disque Direitos Humanos</span>
+        Canal específico para violações de direitos humanos. Gratuito, 24h.
+      </div>
+    </div>
+
+    <div class="canal secundario">
+      <div class="n">190</div>
+      <div class="info">
+        <span class="nome">Polícia Militar</span>
+        Em caso de perigo imediato ou flagrante. Atendimento 24h.
+      </div>
+    </div>
+
+    <p class="obs">Você também pode procurar o <strong>CREAS</strong> mais próximo, o Ministério Público ou as <strong>Delegacias do Idoso</strong> em alguns estados.</p>
+  </div>
+
+</div>
+
+<div class="spacer"></div>
+<div class="nav-pags">
+  <a href="violencias.html">← Tipos de Violência</a>
+  <a href="index.html">Voltar ao início →</a>
+</div>
+
+<footer>
+  <span>Junho Violeta</span>
+  <p>Lei n.º 10.741/2003 · Lei n.º 11.433/2007</p>
+</footer>
+
+</body>
+</html>
